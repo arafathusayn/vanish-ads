@@ -9,7 +9,7 @@
 
 ### How to install?
 
-> Coming soon
+* For **Google Chrome** or **Chromium**, go to [Chrome Web Store](https://chrome.google.com/webstore/detail/glbfdjmlkkhmikafgjhiaapnpdamhiac)
 
 ### License
 
