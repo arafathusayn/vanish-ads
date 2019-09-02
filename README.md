@@ -15,4 +15,4 @@
 
 MIT License
 
-Copyright (c) 2018 [Arafat Husayn](https://keybase.io/arafat)
+Copyright (c) 2019 [Arafat Husayn](https://arafat.dev)
