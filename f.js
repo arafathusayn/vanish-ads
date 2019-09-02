@@ -10,6 +10,18 @@
         }
       }
     }
+
+    try {
+      Array.from(document.querySelectorAll("div.userContentWrapper"))
+        .filter(x =>
+          Array.from(x.querySelectorAll("div"))
+            .reduce((acc, curr) => acc + (curr.innerHTML == "Suggested for You" ? curr.innerHTML : ""), "")
+            .includes("Suggested for You")
+        )
+        .forEach(div => div.parentElement && div.parentElement.parentElement && div.parentElement.parentElement.remove());
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   function hideAdsOnSides() {
