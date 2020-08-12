@@ -2,31 +2,25 @@
   "manifest_version": 2,
   "name": "Vanish Ads",
   "short_name": "vanish-ads",
-  "version": "2.1.0",
+  "version": "3.0.0",
 
   "description": "A browser extension to remove complex advertisements from some popular websites, especially from social media.",
 
   "content_scripts": [
     {
-      "matches": [
-        "https://*.facebook.com/*"
-      ],
+      "matches": ["https://*.facebook.com/*"],
       "js": ["f.js"],
-			"run_at": "document_start"
+      "run_at": "document_start"
     },
     {
-      "matches": [
-        "https://twitter.com/*"
-      ],
+      "matches": ["https://twitter.com/*"],
       "js": ["t.js"],
-			"run_at": "document_start"
+      "run_at": "document_start"
     },
     {
-      "matches": [
-        "https://*.google.com/*"
-      ],
+      "matches": ["https://*.google.com/*"],
       "js": ["g.js"],
-			"run_at": "document_start"
+      "run_at": "document_start"
     }
   ],
 
@@ -37,5 +31,4 @@
   "icons": {
     "128": "icon.png"
   }
-
 }
