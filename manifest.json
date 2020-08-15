@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Vanish Ads",
   "short_name": "vanish-ads",
-  "version": "3.0.0",
+  "version": "3.0.1",
 
   "description": "A browser extension to remove complex advertisements from some popular websites, especially from social media.",
 
