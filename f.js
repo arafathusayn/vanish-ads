@@ -26,6 +26,19 @@
       }
     }
 
+    const sponsoredSpans = document.querySelectorAll(
+      `[aria-label="Sponsored"] [aria-label="Sponsored"]`,
+    );
+
+    for (const span of sponsoredSpans) {
+      /**
+       * @type {HTMLDivElement}
+       */
+      const parent = span.closest(`[data-testid*='feed_story']`);
+
+      parent.style.display = "none";
+    }
+
     try {
       Array.from(document.querySelectorAll("div.userContentWrapper"))
         .filter((x) =>
